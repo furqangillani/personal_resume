@@ -1,0 +1,290 @@
+body {
+    background-color: antiquewhite;
+    overflow-x: hidden;
+    margin: 0;
+    height: 100%;
+}
+#personal_info {
+    height: 400px;
+}
+#skills {
+    height: 100px;
+    right: 0;
+    background-color: whitesmoke;
+    border-top: 5px solid rgb(213, 60, 17);
+}
+.cv_border {
+    width: 100px;
+    border-top: 5px solid rgb(0, 0, 0);
+}
+.enroll {
+    float: right;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    font-size: small;
+}
+.subject {
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+.assig
+.top_sec {
+    /* height:  50%; */
+}
+.cv_portion {
+    /* margin-bottom: 0%; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
+    /* height: 20px; */
+}
+.cv_title {
+    /* padding-top: 5px; */
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+.text_center {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.truncate1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.container {
+    margin: 4% 0% 4% 4%;
+    height: 100%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+}
+.social_icon {
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons {
+    width: 100%;
+    height: 20%;
+    padding-top: 15px;
+}
+.btn {
+    color: black;
+}
+.info {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/* .main-container {
+    display: flex;
+    /* flex-direction: column; */
+    /* max-width: 100%; Optionally, set a maximum width */
+    /* border: 1px solid #ccc; Optional: Adding border for visualization */
+/* } q */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.audio_div {
+    background-color: #dddddd;
+    height: 11%;
+    width: 97.6%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.yt_div {
+    height: 58%;
+    width: 100%;
+}
+.table_div {
+    height: 15%;
+    width: 100%;
+}
+.work_history_row {
+    height: 15%;
+    width: 100%;
+}
+.work_history_col {
+    width: 20%;
+    height: 100%;
+}
+.work_history_col_margin {
+    margin-left: 10px;
+}
+.my_acivity_div {
+    width: 100%;
+    height: 20%;
+    margin-top: -15px;
+}
+.my_activity {
+    width: 25%;
+    height: 100%;
+}
+.my_activity1 {
+    width: 50%; height: 100%;
+}
+.my_activity2 {
+    padding-left: 10px;
+}
+.truncate_detail{
+    width: 80%;
+    height: 40%;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.name {
+    width: 100%;
+    height: 20%;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+.profession {
+    margin-top: -7px;
+}
+#right_side {
+    height: 1000px;
+    width: 80%;
+    float: right;
+}
+#left_side {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.right_side_div {
+    height: 30%;
+    width: 100%;
+    padding-top: 30px;
+}
+.act1 {
+    height: 10%;
+    width: 100%;
+}
+.act2 {
+    height: 10%;
+    width: 100%;
+}
+.act3 {
+    height: 9.3%;
+    width: 100%;
+}
+.act4 {
+    height: 38.7%;
+    width: 100%;
+}
+.act5 {
+    height: 10%;
+    width: 100%;
+}
+.span_style {
+    float: right;
+    font-size: larger;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.image {
+    float: right;
+    padding-right: 20px;
+    width: 200px;
+    height: 250px;
+}
+.image_div {
+    height: 20%;
+    width: 100%;
+    padding-top: 30px;
+}
+#personal_skills {
+    background-color: whitesmoke;
+    height: 1500px;
+    border-top: 5px solid rgb(213, 60, 17);
+}
+.p1 {
+    width: 350px;
+    height: 20%;
+}
+.p2 {
+    width: 100%;
+    height: 55%;
+}
+.p3 {
+    width: 100%;
+    height: 25%;
+    margin-top: 15px;
+}
+.cv_title {
+    padding-top: 20px;
+}
+.heading {
+    width: 70%;
+    height: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: large;
+}
+.title {
+    width: 350px;
+    height: 30%;
+    padding-top: 10px;
+    font-size: xx-large;
+}
+.section {
+    float: right;
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    font-size: small;
+}
+.assign {
+    padding-top: 2px;
+}
+.assign_title_div {
+    width: 100%;
+    height: 50%;
+    margin-top: 0;
+}
+.assign_div {
+    width: 100%;
+    height: 50%;
+    margin-top: 0;
+}
+.assign_style {
+    float: left;
+    height: 100%;
+    width: 70%;
+}
+.assig_title {
+    float: left;
+    height: 100%;
+    width: 70%;
+}
